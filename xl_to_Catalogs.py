@@ -11,10 +11,10 @@ mainRng = ws.UsedRange.Cells
 RowCount = mainRng.Rows.Count
 xRow = RowCount
 
-connection = pymysql.connect(host='192.168.169.94', # dev
+connection = pymysql.connect(host='',
                             user='root',
-                            password='2wsx2WSX',
-                            db='morris_prod1',
+                            password='',
+                            db='',
                             charset='utf8mb4',
                             cursorclass=pymysql.cursors.DictCursor)
 
